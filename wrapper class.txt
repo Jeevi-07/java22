@@ -1,0 +1,60 @@
+wrapper class
+		- every datatype has a class 
+		- requests are set in the form of objects
+
+auto boxing - primitive---> object            (from java5)
+
+int i;
+Integer obj = new Integer(i);
+or Integer obj = i;
+
+auto unboxing - primitive <--- object
+
+int j = obj.intValue();
+int j = obj;
+
+
+
+this()
+	- call constructor in the same class
+
+
+Bean class
+	    - to initialize object attributes by using setter and getter methods
+
+static
+	- accessed without creating an object of a class
+
+	- static variable value can be auto incremented
+
+	- advantage of using static block is - executed first
+					     - static variable is initialized only one time
+
+
+object relationship
+			- HAS A = one object inside another object / 1:1, 1:m, m:n, m:1 / association
+
+			- IS A = inheritance
+
+super
+
+	- in inheritance if we want to access base class variable from derived class , if the name of variable is same
+	- super.a
+	- also used to call base method
+
+
+super()
+	- constructor chaining outside the class - calling base class constructor from derived class constructor
+	- super(a,b)
+
+
+
+
+
+
+
+
+
+
+
+
